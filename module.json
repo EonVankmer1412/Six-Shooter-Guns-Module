@@ -23,36 +23,28 @@
       "label": "Six Shooter Guns",
       "path": "packs/SixShooter",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
- {
-      "name": "Player Character",
+    {
+      "name": "PlayerCharacter",
       "label": "Player-Character",
       "path": "packs/player-character",
       "type": "Actor",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     }
-
   ],
   "relationships": {
     "requires": [
       {
         "id": "dae",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "midi-qol",
         "type": "module",
         "compatibility": {}
       }
